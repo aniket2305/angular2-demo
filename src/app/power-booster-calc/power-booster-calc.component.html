@@ -1,0 +1,11 @@
+<div>
+  <h2> Power Boost Calculator</h2>
+  <div><label>Value</label> <input type="text" [(ngModel)]="power"/></div>
+  <div><label>Boost factor</label> <input type="text" [(ngModel)]="factor"/></div> 
+  <p>
+    Power : {{power | exponentialStrength : factor}}
+  </p>
+
+
+
+</div>

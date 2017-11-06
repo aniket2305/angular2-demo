@@ -1,0 +1,33 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="container"> 
+  <h1 class="page-title">
+    {{title}}!
+  </h1>
+
+  <nav style="margin-bottom:20px;">
+    <ul class="nav nav-pills">
+      <li class="nav-item">
+          <a class="nav-link" routerLink="/dashboard" routerLinkActive="active">Dashboard</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" routerLink="/heroes" routerLinkActive="active">Heroes</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/voting" routerLinkActive="active">Voting</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" routerLink="/calculator" routerLinkActive="active">calculator</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" routerLink="/form" routerLinkActive="active">Form</a>
+      </li>
+      
+    </ul>
+
+  </nav>
+
+  <router-outlet></router-outlet>
+
+</div>
+
+
